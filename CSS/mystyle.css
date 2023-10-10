@@ -1,0 +1,757 @@
+html {
+
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+
+}
+
+.over:hover {
+	background-color: aliceblue;
+
+}
+
+.over1:hover {
+	background-color: azure;
+}
+
+.over2:hover {
+
+	background-color: #c2e7ff;
+}
+
+::placeholder {
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+}
+
+
+.leftMenuBar {
+
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+	height: 100%;
+	text-align: center;
+	width: 5%;
+	padding-top: 21px;
+	font-size: 12px;
+
+}
+
+.menuMail {
+	padding-top: 30px;
+
+
+}
+
+.leftMenu {
+	padding-top: 20px;
+}
+
+.mainBody {
+	background-color: #e9eef6;
+	width: 95%;
+
+}
+
+.gmail {
+
+	padding-top: 23px;
+	padding-left: 20px;
+	display: flex;
+}
+
+.gmailIcon {
+
+	height: 40px;
+	width: 109px;
+}
+
+.gmailText {
+
+	margin-top: 2px;
+	padding-left: 12px;
+	font-size: 22px;
+}
+
+
+.topMenu {
+	display: flex;
+
+}
+
+#search {
+	width: 89%;
+	border-radius: 27px;
+	background: white;
+	border: none;
+	font-size: 17px;
+	outline: none;
+	padding-left: 9px;
+}
+
+.searchBar {
+
+	text-align: center;
+	border-radius: 27px;
+	width: 650px;
+	background: white;
+	display: flex;
+	height: 48px;
+	margin-top: 12px;
+
+	margin-left: 87px;
+}
+
+.searchIcon {
+	margin-left: 7px;
+	margin-top: 6px;
+	border-radius: 50%;
+	width: 30px;
+	height: 28px;
+	padding: 7px 1px 1px 5px;
+}
+
+.icons {
+	padding-top: 12px;
+}
+
+.topMenuPosition {
+	margin-top: 11px;
+	width: 200px;
+	justify-content: space-between;
+	padding-left: 86px;
+}
+
+.fontSize {
+	font-size: 24px;
+}
+
+#profilePic {
+	border-radius: 20px;
+	width: 35px;
+	height: 35px;
+}
+
+.iconsSpace {
+	margin-right: 16px;
+	margin-top: 6px;
+
+}
+
+.compose {
+	display: flex;
+	margin-left: 14px;
+	width: 133px;
+	border-radius: 15px;
+	background-color: #c2e7ff;
+	height: 56px;
+}
+
+.editIcon {
+	padding-top: 15px;
+	padding-left: 11px;
+}
+
+#composeText {
+	padding-top: 6px;
+	padding-left: 12px;
+	font-size: 14px;
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.inboxDiv {
+
+	padding-top: 15px;
+	width: 112%;
+	justify-content: space-between;
+	padding-left: 23px;
+
+}
+.optionIcon{
+display:none;
+}
+
+.text {
+	margin-top: 3px;
+}
+
+.textList {
+	padding-left: 10px;
+}
+
+.styleCompose {
+	padding-left: 4px;
+	justify-content: space-between;
+}
+
+.rightMenu {
+	text-align: center;
+	width: 5%;
+	padding-top: 9px;
+	padding-left: 9px;
+}
+
+.mail {
+	width: 85%;
+	margin-left: 65px;
+	background-color: aliceblue;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+	height: 100%;
+	overflow: hidden;
+border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+
+}
+
+.sideIcons {
+	width: 22px;
+	height: 22px;
+}
+
+.rightIcons {
+	margin-top: 13px;
+}
+
+.addIcon {
+	margin-top: 55px;
+}
+
+.fontfamily {
+	font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+}
+
+.fontsize {
+	font-size: 22px;
+}
+
+.iconSize {
+	font-family: 'Material Symbols Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
+.iconsize {
+	font-family: 'Material Symbols Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.starIcon {
+	font-family: 'Material Symbols Outlined';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+.mailTop {
+
+	background: white;
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+	padding-left: 18px;
+	padding-top: 12px;
+	height: 40px;
+}
+
+.mailIconMargin {
+	margin-left: 7px;
+}
+
+.number {
+	width: 80%;
+	text-align: end;
+}
+
+.arrowMargin {
+
+	margin-left: 18px;
+}
+
+.divMail {
+	padding-left: 17px;
+	padding-top: 9px;
+	display: flex;
+	border-bottom: 0.1rem solid gainsboro;
+}
+
+.opacity {
+	opacity: 0.32;
+}
+
+.mailfont {
+	font-size: 15px;
+}
+
+.mailmargin {
+	margin-left: 10px;
+}
+
+.mailmsgmargin {
+
+	margin-left:128px;
+}
+
+.dateMargin {
+	margin-left: 95px;
+}
+
+.mailPadding {
+	padding-top: 3px;
+}
+
+.composeMargin {
+	margin-top: 39px;
+}
+
+.radius {
+	border-radius: 10px;
+}
+
+.fontSizeTwelve {
+	font-size: 12px;
+
+}
+
+.fontsizethtree {
+	font-size: 13px;
+}
+
+.fontsize14 {
+	font-size: 15px;
+}
+
+.overflowxhidden {
+	width: 572px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.activeDiv {
+	margin-top: 11px;
+	margin-left: 100px;
+	width: 121px;
+	background-color: aliceblue;
+	border-radius: 57px;
+	height: 30px;
+	text-align: center;
+	    padding: 14px 2px 2px 5px;
+	font-size: 17px;
+	justify-content: space-around;
+}
+
+#greendot {
+	width: 12px;
+	height: 12px;
+}
+
+.paddingsix {
+
+	padding-top: 6px;
+}
+
+.inboxDivStyle {
+
+	padding-top: 8px;
+	height: 32px;
+	padding-left: 16px;
+}
+
+.leftOptionsDiv {
+
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	padding: 11px 4px 1px 4px;
+	margin-left: 17px;
+}
+
+.formStyle {
+	width: 86%;
+	padding-top: 13px;
+text-align: left;
+}
+
+.rightNavMenu {
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	padding: 10px 1px 1px 10px;
+}
+
+.rightNavProPic {
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	padding: 8px 3px 8px 5px;
+}
+
+.rightIcon {
+
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	padding: 11px 2px 1px 4px;
+}
+
+.mainOptionsDiv {
+	height: 27px;
+	padding-top: 5px;
+}
+
+.refreshDivSpan {
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+
+}
+
+.refreshDiv {
+	padding-top: 6px;
+
+}
+
+.rightLeftArrowDiv {
+
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	padding: 5px 0px 0px 4px;
+}
+
+.tuneStyle {
+
+	margin-top: 6px;
+	border-radius: 50%;
+	width: 30px;
+	height: 28px;
+	padding: 7px 1px 1px 5px;
+
+}
+.lastChild:last-child {
+	    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.form {
+
+	text-align: left;
+}
+
+.pageNoDiv {
+	width: 77%;
+	height: 20px;
+	float: right;
+	padding-top: 6px;
+	padding-right: 11px;
+	border-radius: 5px;
+}
+
+.Clear.clear {
+
+	clear: both;
+}
+
+.pageDiv {
+	width: 77px;
+	padding-right: 20px;
+	padding-top: 4px;
+
+	height: 21px;
+	float: right;
+
+	border-radius: 5px;
+}
+
+.bodyIconStyle {
+	border-radius: 50%;
+	width: 28px;
+	height: 29px;
+	padding:2px 0px 1px 4px;
+}
+
+
+
+@media screen and (max-width: 320px) {
+.leftMenuBar,.composeMargin,.rightMenu,.gmailIcon ,.mailTop,.bodyIconStyle,.activeDiv,.rightNavMenu,.tuneStyle,.mailHeader {
+display: none;
+
+    }
+.optionIcon{
+display:block;
+    padding-top: 22px;
+    padding-right: 6px;
+
+}
+.mailmsgmargin,.mail,.searchBar{
+margin-left:0px;
+}
+.mainBody {
+	
+	width:102%;
+
+}
+
+.searchBar{
+    width: 388%;
+}
+.mail{
+
+width:99%;
+}
+.overflowxhidden
+{
+
+width:247px;
+}
+.dateMargin{
+
+margin-left:0px;
+}
+.topMenuPosition{
+padding-left:0px;
+}
+.mailfont{
+font-size:12px;
+}
+
+.searchBar{
+    height: 38px;
+margin-top: 16px;
+}
+
+.searchIcon{
+margin-top: 3px;
+}
+.formStyle{
+
+padding-top: 11px;
+}
+}
+
+@media screen and (min-width: 375px) and (max-width:380px){
+.leftMenuBar,.composeMargin,.rightMenu,.gmailIcon ,.mailTop,.bodyIconStyle,.activeDiv,.rightNavMenu,.tuneStyle,.mailHeader {
+display: none;
+
+    }
+.mainBody {
+	
+	width:103%;
+
+}
+
+.starIcon{
+font-size:21px;
+}
+.StarIcon{
+display:block;
+}
+.optionIcon{
+display:block;
+    padding-top: 22px;
+    padding-right: 6px;
+
+}
+.mailmsgmargin,.mail,.searchBar,.mailmargin{
+margin-left:0px;
+}
+.searchBar{
+    width: 388%;
+}
+.mail{
+
+width:99%;
+}
+.overflowxhidden
+{
+
+width:261px;
+}
+.dateMargin{
+
+margin-left:0px;
+}
+.topMenuPosition{
+padding-left:0px;
+}
+.mailfont{
+font-size:12px;
+}
+.mailPadding {
+    padding-top: 8px;
+}
+.searchBar{
+    height: 38px;
+margin-top: 15px;
+}
+
+.searchIcon{
+margin-top: 3px;
+}
+.formStyle{
+
+padding-top: 11px;
+}
+
+}
+
+@media screen and (min-width: 425px) and (max-width:430px){
+.leftMenuBar,.composeMargin,.rightMenu,.gmailIcon ,.mailTop,.activeDiv,.rightNavMenu,.tuneStyle,.mailHeader {
+display: none;
+
+    }
+
+.StarIcon{
+display:block;
+}
+.optionIcon{
+display:block;
+    padding-top: 22px;
+    padding-right: 6px;
+
+}
+.mailmsgmargin,.mail,.searchBar,.mailmargin{
+margin-left:0px;
+}
+.searchBar{
+    width: 388%;
+}
+.mail{
+
+width:99%;
+}
+.overflowxhidden
+{
+
+width:278px;
+}
+.dateMargin{
+
+margin-left:0px;
+}
+.topMenuPosition{
+padding-left:0px;
+}
+.mailfont{
+font-size:13px;
+}
+.mainBody {
+	
+	width:110%;
+
+}
+.mailPadding {
+    padding-top: 8px;
+}
+.spanPadding{
+    padding-top: 3px;
+}
+.searchBar{
+    height: 38px;
+margin-top: 16px;
+}
+
+.searchIcon{
+margin-top: 3px;
+}
+.formStyle{
+
+padding-top: 11px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:768px){
+
+.rightMenu{
+display:none;
+}
+.leftMenuBar{
+width:8%
+}
+.leftOptionsDiv{
+margin-left:3px;
+}
+.mailmsgmargin{
+margin-left:12px;
+}
+.mail{
+margin-left:17px;
+}
+.overflowxhidden{
+width:252px;
+}
+.leftIcons
+{
+margin-left: 4px;
+}
+.activeDiv{
+margin-left:12px;
+}
+.topMenuPosition{
+padding-left:0px;
+}
+.searchBar
+{
+margin-left:38px;
+}
+.styleCompose{
+
+margin-right: 4px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width:1024px){
+
+.overflowxhidden{
+width:380px;
+
+}
+.activeDiv{
+    margin-left: 13px;
+}
+.mailmsgmargin {
+    margin-left: 32px;
+}
+.leftOptionsDiv{
+margin-left: 4px;
+}
+.topMenuPosition{
+padding-left: 30px;
+}
+}
